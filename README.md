@@ -1,6 +1,6 @@
 # Faraday::Zipkin
 
-[![Build Status](https://travis-ci.org/Oscil8/faraday-zipkin.svg?branch=master)](https://travis-ci.org/Oscil8/faraday-zipkin)
+[![Build Status](https://travis-ci.org/openzipkin/faraday-zipkin.svg?branch=master)](https://travis-ci.org/openzipkin/faraday-zipkin)
 
 Faraday middleware to generate Zipkin tracing headers.
 
@@ -24,7 +24,7 @@ Include Faraday::Zipkin::TraceHeaders as a Faraday middleware:
 
     require 'faraday'
     require 'faraday-zipkin'
-    
+
     conn = Faraday.new(:url => 'http://localhost:9292/') do |faraday|
       # 'service_name' is optional (but recommended)
       faraday.use Faraday::Zipkin::TraceHeaders, 'service_name'
@@ -40,7 +40,7 @@ first section of the destination URL (e.g. 'service.example.com' =>
 
 ## Contributing
 
-1. Fork it ( https://github.com/Oscil8/faraday-zipkin/fork )
+1. Fork it ( https://github.com/openzipkin/faraday-zipkin/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
