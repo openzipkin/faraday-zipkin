@@ -1,11 +1,3 @@
-# Faraday::Zipkin
-
-[![Build Status](https://travis-ci.org/openzipkin/faraday-zipkin.svg?branch=master)](https://travis-ci.org/openzipkin/faraday-zipkin)
-
-Faraday middleware to generate Zipkin tracing headers.
-
-
-
 ## Deprecated
 
 This gem is deprecated.
@@ -14,8 +6,14 @@ Please use the FaradayHandler in the zipkin-tracer gem to get the most up-to-dat
 
 The README below is left only as reference for users of the old code.
 
+***
 
 
+# Faraday::Zipkin
+
+[![Build Status](https://travis-ci.org/openzipkin/faraday-zipkin.svg?branch=master)](https://travis-ci.org/openzipkin/faraday-zipkin)
+
+Faraday middleware to generate Zipkin tracing headers.
 
 For more information about Zipkin, go to
 http://twitter.github.io/zipkin
