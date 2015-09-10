@@ -1,3 +1,14 @@
+## Deprecated
+
+This gem is deprecated.
+The code of this middleware has been moved into the [Zipkin-tracer](https://github.com/openzipkin/zipkin-tracer) gem.
+Please use the FaradayHandler in the zipkin-tracer gem to get the most up-to-date code.
+
+The README below is left only as reference for users of the old code.
+
+***
+
+
 # Faraday::Zipkin
 
 [![Build Status](https://travis-ci.org/openzipkin/faraday-zipkin.svg?branch=master)](https://travis-ci.org/openzipkin/faraday-zipkin)
